@@ -14,7 +14,7 @@ const DEFAULT_SETTINGS = {
   },
 };
 
-const NUMBER_OF_CPUS = 6;
+const NUMBER_OF_CPUS = 32;
 
 async function make_config() {
   const groups = await get_eager_index_groups();

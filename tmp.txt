@@ -1,3 +1,7 @@
+# started at 11:01
+# nb of cpus: 6
+# nb of jobs: 918
+
 # http://lblod.data.gift/vocabularies/automatische-melding/FormData
 (in-package :mu-cl-resources)
 

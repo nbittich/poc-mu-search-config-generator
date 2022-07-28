@@ -34,6 +34,14 @@ export default async function get_eager_index_groups() {
   const search_config= session_group.map(sg=>{
     return [
       {
+        "variables": [],
+        "name": "clean"
+      },
+      {
+        "variables": [],
+        "name": "public"
+      },
+      {
         name: SPEC_NAME,
         variables: [sg, ROLE]
       }
